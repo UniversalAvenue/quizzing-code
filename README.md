@@ -28,7 +28,7 @@ Or just say "quiz me on my code" in conversation.
 
 ## Example Session
 
-```
+````
 You: /quizzing-code
 
 Claude: I'll analyze your branch changes and quiz you on the implementation.
@@ -55,7 +55,7 @@ Claude: Here's your summary:
 
 # Code Quiz Summary: feat/add-user-roles
 ...
-```
+````
 
 ## Question Categories
 
