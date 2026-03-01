@@ -1,6 +1,7 @@
 ---
 name: quizzing-code
 description: Quizzes developers about their code changes before PR review. Analyzes git diff, asks probing questions with code snippets, tracks discoveries, and generates a summary report. Use when user says "quiz me", "code quiz", wants self-review, or before requesting PR review.
+license: MIT
 ---
 
 # Code Comprehension Quiz
@@ -53,7 +54,7 @@ Looking at `path/file.ts:45-52`:
 [Probing question]
 ```
 
-Question types - see [QUESTIONS.md](QUESTIONS.md)
+Question types - see [QUESTIONS.md](references/QUESTIONS.md)
 
 ## Step 4: Track Discoveries
 
@@ -66,4 +67,4 @@ Categorize findings as:
 
 Save to `.claude/quiz-summaries/YYYY-MM-DD-branch-name.md`
 
-Template - see [SUMMARY_TEMPLATE.md](SUMMARY_TEMPLATE.md)
+Template - see [SUMMARY_TEMPLATE.md](references/SUMMARY_TEMPLATE.md)

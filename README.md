@@ -1,6 +1,12 @@
 # quizzing-code
 
-A Claude Code skill that quizzes you about your code changes before PR review. Helps catch issues, validate design decisions, and document your thinking.
+I've found that when using the LLMS to do lots of the coding
+I end up in sintuations where I don't have the understanding of the code
+I would want. 
+Instead of doing complete reviews I found that asking the LLM to quiz
+me about the code helps a lot. It also sometimes allows us
+to find issues together. Its a nice way to gain confidence
+and to keep a bit sharp. 
 
 ## What it does
 
@@ -12,10 +18,8 @@ A Claude Code skill that quizzes you about your code changes before PR review. H
 ## Installation
 
 ```bash
-git clone https://github.com/UniversalAvenue/quizzing-code.git ~/.claude/skills/quizzing-code
+npx skills add UniversalAvenue/quizzing-code
 ```
-
-Restart Claude Code to discover the skill.
 
 ## Usage
 
