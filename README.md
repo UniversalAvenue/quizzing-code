@@ -15,6 +15,10 @@ and to keep a bit sharp.
 3. **Tracks discoveries** categorized as Critical/Important/Minor
 4. **Generates a summary** saved to `.claude/quiz-summaries/`
 
+## Example 
+<img width="1512" height="460" alt="image" src="https://github.com/user-attachments/assets/33f7b116-70d9-4323-8861-200b895f752d" />
+
+
 ## Installation
 
 ```bash
